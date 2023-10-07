@@ -1,0 +1,14 @@
+h2>a:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(12, 236, 23);
+    animation: girar 5s linear;
+}
+@keyframes girar{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+    }
